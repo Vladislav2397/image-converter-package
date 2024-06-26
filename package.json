@@ -2,7 +2,10 @@
     "name": "image-converter-package",
     "main": "index.js",
     "scripts": {
-        "convert-images": "node convert.js --config image-converter.config.json"
+        "convert-images": "node convert.js"
+    },
+    "bin": {
+        "optimize": "./convert.js"
     },
     "dependencies": {
         "sharp": "^0.33.4"

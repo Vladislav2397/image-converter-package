@@ -1,0 +1,10 @@
+{
+    "name": "image-converter-package",
+    "main": "index.js",
+    "scripts": {
+        "convert-images": "node convert.js --config image-converter.config.json"
+    },
+    "dependencies": {
+        "sharp": "^0.33.4"
+    }
+}
